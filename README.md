@@ -1,5 +1,13 @@
 # Gradle: Weird behavior with @Outputfiles/InputChanges
 
+[Issue](https://github.com/gradle/gradle/issues/26039)
+
+## Reproduce
+
+Run the test `testTasksContent` in PluginTester
+
+or `./gradlew tests`
+
 ### Context
 
 A task read a txt file as input and generate a file for each line read.
